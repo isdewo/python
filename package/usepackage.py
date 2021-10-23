@@ -6,8 +6,8 @@ p. 13 ~ 14
 
 import sys
 sys.path.append("C:\mypackage")
-from mypack.calc.myadd import add
-add(1, 2)
+from mypack.calc import myadd
+myadd.add(1, 2)
 
 '''
 from mypack.calc import myadd
